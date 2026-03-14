@@ -1,0 +1,34 @@
+/* Muda essas configurações pra tudo no site*/
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*Muda essas configurações pra tudo nas página*/
+html, 
+body{
+    height: 100%;
+    width: 100%;
+}
+
+/* Oculta a barra lateral de rolagem */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+}
+
+.nav-menu {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    z-index: 99%;
+}
