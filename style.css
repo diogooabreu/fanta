@@ -1,21 +1,15 @@
-<<<<<<< HEAD
-=======
 /*Fontes*/
 @font-face {
     font-family: Product Sans;
     src: url(assets/fonts/Product\ Sans\ Bold.ttf);
 }
 
->>>>>>> feature/fonts
 /* Muda essas configurações pra tudo no site*/
 *{
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
-<<<<<<< HEAD
-=======
     font-family: Product Sans;
->>>>>>> feature/fonts
 }
 
 /*Muda essas configurações pra tudo nas página*/
@@ -23,10 +17,7 @@ html,
 body{
     height: 100%;
     width: 100%;
-<<<<<<< HEAD
-=======
     overflow-x: hidden;
->>>>>>> feature/fonts
 }
 
 /* Oculta a barra lateral de rolagem */
