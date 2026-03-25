@@ -6,7 +6,7 @@ let timeLine = gsap.timeline({
         start: '0%, 95%',
         end: '70% 50%',
         scrub: true,
-        makers: true, //depuração
+        makers: false, //depuração
     },
 });
 
@@ -56,4 +56,74 @@ timeLine.to(
         left: '0%',
     },
     'orange',
+);
+
+let timeLine2 = gsap.timeline({
+    scrollTrigger: {
+        trigger: '.three',
+        start: '0% 95%',
+        end: '20% 50%',
+        scrub: true,
+        markers: false,
+    },
+});
+
+timeLine2.from(
+    '.lemon',
+    {
+        rotate: '-90deg',
+        left: '-100%',
+        top: '110%'
+    },
+    'session-tree',
+);
+
+timeLine2.from(
+    '#cocacola',
+    {
+        rotate: '-90deg',
+        left: '-100%',
+        top: '110%'
+    },
+    'session-tree',
+);
+
+timeLine2.from(
+    '.lemon-2',
+    {
+        rotate: '90deg',
+        left: '100%',
+        top: '110%'
+    },
+    'session-tree',
+);
+
+timeLine2.from(
+    '#pepsi',
+    {
+        rotate: '90deg',
+        left: '100%',
+        top: '110%'
+    },
+    'session-tree',
+);
+
+timeLine2.to(
+    '#cut-orange',
+    {
+        width: '16%',
+        left: '42%',
+        top: '204%',
+    },
+    'session-three',
+);
+
+timeLine2.to(
+    '#fanta',
+    {
+        width: '30%',
+        left: '35%',
+        top: '210%',
+    },
+    'session-three',
 );
