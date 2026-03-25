@@ -75,7 +75,7 @@ timeLine2.from(
         left: '-100%',
         top: '110%'
     },
-    'session-tree',
+    'session-three',
 );
 
 timeLine2.from(
@@ -85,7 +85,7 @@ timeLine2.from(
         left: '-100%',
         top: '110%'
     },
-    'session-tree',
+    'session-three',
 );
 
 timeLine2.from(
@@ -95,7 +95,7 @@ timeLine2.from(
         left: '100%',
         top: '110%'
     },
-    'session-tree',
+    'session-three',
 );
 
 timeLine2.from(
@@ -105,7 +105,7 @@ timeLine2.from(
         left: '100%',
         top: '110%'
     },
-    'session-tree',
+    'session-three',
 );
 
 timeLine2.to(
