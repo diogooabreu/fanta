@@ -87,17 +87,7 @@ timeLine2.from(
     },
     'session-three',
 );
-
-timeLine2.from(
-    '.lemon-2',
-    {
-        rotate: '90deg',
-        left: '100%',
-        top: '110%'
-    },
-    'session-three',
-);
-
+    
 timeLine2.from(
     '#pepsi',
     {
